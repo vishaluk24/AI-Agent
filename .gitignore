@@ -1,0 +1,22 @@
+# Virtual environment
+.venv/
+venv/
+
+# Secrets and local settings
+.env
+
+# Generated files
+knowledge_base/vector_store.json
+chromadbStorage/
+chat_history/
+
+# Python cache and tooling
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
